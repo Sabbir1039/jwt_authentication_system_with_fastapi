@@ -1,0 +1,62 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit Test / Coverage Reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+junit/
+junit.xml
+test*.db*
+
+# SQLAlchemy (if using local SQLite)
+sqlite.db
+
+# Development Configuration
+.env
+
+# IDE/Editor Specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
